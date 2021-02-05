@@ -1,1 +1,1 @@
-# XGames
+# XGames-API
