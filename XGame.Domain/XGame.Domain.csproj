@@ -46,7 +46,10 @@
     <Compile Include="Entities\JogoPlataforma.cs" />
     <Compile Include="Entities\MyJogos.cs" />
     <Compile Include="Entities\Plataforma.cs" />
+    <Compile Include="Enum\EnumStatusPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueObject\Email.cs" />
+    <Compile Include="ValueObject\Nome.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Diagrams\" />
