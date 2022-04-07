@@ -47,12 +47,16 @@
     <Compile Include="Entities\MyJogos.cs" />
     <Compile Include="Entities\Plataforma.cs" />
     <Compile Include="Enum\EnumStatusPlayer.cs" />
+    <Compile Include="Interace\Arguments\IResponse.cs" />
+    <Compile Include="Interace\Arguments\IRequest.cs" />
+    <Compile Include="Interace\Services\IservicePlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValueObject\Email.cs" />
     <Compile Include="ValueObject\Nome.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Diagrams\" />
+    <Folder Include="Interace\Repositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
